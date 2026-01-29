@@ -1,4 +1,5 @@
 *Minutes of the Day* - Week-1
+
 Day - 1: (19/1/2026)
   1. INTRODUCTION OF  BLOCKCHAIN TECHNOLOGY
   2. HOW WEB 3.0 WORKS?
