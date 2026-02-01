@@ -1,0 +1,94 @@
+ BITCOIN WHITE PAPER
+
+“Bitcoin: A Peer-to-Peer Electronic Cash System”
+ Author: Satoshi Nakamoto (2008)
+
+1. Introduction
+The Bitcoin White Paper was published in 2008 by an unknown person or group named Satoshi Nakamoto.
+ The main goal of the paper is to introduce a digital currency system that allows online payments without relying on banks or financial institutions.
+
+2. Problem Identified in Traditional Systems
+1.     Dependence on Trusted Third Parties
+o	Banks act as intermediaries
+o	Transactions require trust in institutions
+2.     High Transaction Costs
+o	Fees charged by banks and payment gateways
+3.     Risk of Fraud and Chargebacks
+o	Reversible transactions allow disputes and fraud
+4.     Centralized Control
+o	Single authority can block or control transactions
+
+
+
+3. Proposed Solution: Bitcoin
+Bitcoin is proposed as a peer-to-peer electronic cash system that allows users to send money directly to each other without intermediaries.
+ 
+Key Idea:
+Trust is replaced by cryptographic proof and network consensus, not institutions.
+
+4. How Bitcoin Works (Core Concepts)
+4.1 Peer-to-Peer Network
+·         Users connect directly to each other
+·         No central server or authority
+4.2 Transactions
+·         Transactions are digitally signed using cryptography
+·         Ensures ownership and security
+4.3 Blocks and Blockchain
+·         Transactions are grouped into blocks
+·         Blocks are linked together to form a blockchain
+·         Blockchain is public and immutable
+4.4 Proof of Work (PoW)
+·         Miners solve complex mathematical problems
+·         Ensures security and prevents fraud
+·         Makes altering transactions extremely difficult
+
+4.5 Mining
+·         Process of validating transactions
+·         Miners receive Bitcoin rewards
+·         New bitcoins are created through mining
+4.6 Double-Spending Problem
+·         Bitcoin prevents spending the same coin twice
+·         Solved using blockchain + proof of work
+
+ 
+5. Consensus Mechanism
+Network agrees on a single version of the blockchain
+The longest valid chain is accepted
+Ensures trust without central authority
+
+6. Privacy in Bitcoin
+Users are identified by public keys, not real names
+Transactions are public, but identities remain pseudonymous
+
+7. Incentives and Economic Model
+1.     Block Rewards
+o	Miners are rewarded with bitcoins
+2.     Transaction Fees
+o	Users pay small fees to miners
+3.     Limited Supply
+o	Maximum supply is 21 million bitcoins
+o	Prevents inflation
+
+8. Advantages of Bitcoin (As per White Paper)
+Decentralized system
+No need for banks
+Secure and transparent
+Low transaction cost
+Global accessibility
+
+ 
+9. Limitations Mentioned
+Requires large computing power
+Energy consumption due to mining
+Transaction speed is limited
+
+10. Importance of the Bitcoin White Paper
+First successful decentralized digital currency
+Introduced blockchain technology
+Foundation for cryptocurrencies and Web3
+Changed global financial thinking
+
+The Bitcoin White Paper presents a revolutionary idea of trust less digital money.
+ By using cryptography, proof of work, and decentralization, Bitcoin removes the need for intermediaries and creates a secure, transparent financial system.
+
+ 
