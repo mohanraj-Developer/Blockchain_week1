@@ -1,0 +1,77 @@
+ETHEREUM WHITE PAPER
+
+Title: A Next-Generation Smart Contract and Decentralized Application Platform
+ Author: Vitalik Buterin
+ Year: 2013
+
+1. What is the Ethereum White Paper?
+The Ethereum White Paper is a technical document written by Vitalik Buterin that explains the idea of Ethereum, a blockchain platform designed not only for digital money but also for smart contracts and decentralized applications (DApps).
+While Bitcoin focuses mainly on peer-to-peer digital currency, Ethereum focuses on programmable blockchain technology.
+
+2. Problem with Existing Blockchain Systems (Bitcoin Limitations)
+1.     Bitcoin scripting language is limited
+2.     Difficult to build complex applications
+3.     Not flexible for developers
+4.     Blockchain used only for payments
+
+3. Proposed Solution: Ethereum
+Ethereum is proposed as a general-purpose blockchain that allows developers to create and run applications using smart contracts.
+Core Idea:
+Blockchain + Programming = Decentralized Applications
+
+4. Key Concepts Explained in the Ethereum White Paper
+4.1 Smart Contracts
+·         Self-executing programs stored on the blockchain
+·         Automatically run when conditions are met
+·         No third-party involvement
+4.2 Ethereum Virtual Machine (EVM)
+·         A global decentralized computer
+·         Executes smart contract code
+·         Same results on all nodes
+4.3 Ether (ETH)
+·         Native cryptocurrency of Ethereum
+·         Used to pay for transactions and computation
+·         Acts as “fuel” for the network
+4.4 Gas System
+·         Measures computational cost
+·         Prevents spam and infinite loops
+·         Users pay gas fees in ETH
+4.5 Accounts in Ethereum
+Two types of accounts:
+1.     Externally Owned Accounts (EOA) – controlled by private keys
+2.     Contract Accounts – controlled by smart contract code
+
+5. Ethereum Architecture
+Decentralized peer-to-peer network
+Public blockchain ledger
+Uses cryptographic security
+Originally used Proof of Work, now uses Proof of Stake
+
+6. Use Cases Mentioned in the White Paper
+Decentralized Finance (DeFi)
+Token creation (ERC-20)
+Decentralized exchanges
+Supply chain tracking
+Digital identity
+Gaming and NFTs
+
+7. Advantages of Ethereum
+Highly programmable blockchain
+Supports complex applications
+Decentralized and secure
+Large developer community
+Foundation for Web3
+
+8. Limitations Discussed
+Scalability challenges
+Gas fees can be high
+Complexity for beginners
+
+9. Importance of the Ethereum White Paper
+Introduced smart contracts to blockchain
+Enabled decentralized applications
+Led to DeFi, NFTs, and DAOs
+Expanded blockchain beyond currency
+
+The Ethereum White Paper describes a blockchain platform that acts as a decentralized world computer, enabling anyone to build secure, transparent, and trustless applications without intermediaries.
+
