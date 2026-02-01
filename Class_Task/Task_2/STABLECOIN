@@ -1,0 +1,100 @@
+STABLECOIN
+
+1. What is Stablecoin?
+A stablecoin is a type of cryptocurrency designed to maintain a stable value by being pegged to a stable asset such as:
+Fiat currency (USD, INR)
+Commodities (Gold)
+Other cryptocurrencies
+Stablecoins reduce the price volatility commonly seen in cryptocurrencies like Bitcoin and Ethereum.
+
+2. Why Stablecoins are Needed
+Cryptocurrencies are highly volatile, which makes them difficult to use for:
+Daily payments
+Salary payments
+Savings
+Trading stability
+Stablecoins solve this problem by providing price stability while retaining blockchain benefits.
+
+3. How Stablecoins Work
+Stablecoins maintain stability using different mechanisms:
+Asset backing
+Smart contracts
+Algorithms
+Collateral reserves
+
+ 
+4. Types of Stablecoins
+4.1 Fiat-Collateralized Stablecoins
+·         Backed by fiat currency (1:1)
+·         Stored in bank reserves
+Examples:
+·         USDT (Tether)
+·         USDC (USD Coin)
+✅ High stability
+ ❌ Centralized control
+4.2 Crypto-Collateralized Stablecoins
+·         Backed by cryptocurrencies
+·         Over-collateralized to manage volatility
+Example:
+·         DAI (backed by Ethereum)
+✅ Decentralized
+ ❌ Complex system
+4.3 Algorithmic Stablecoins
+·         Not backed by assets
+·         Uses algorithms to control supply
+Example:
+·         (Historical) TerraUSD (UST)
+✅ Fully decentralized
+ ❌ High risk
+4.4 Commodity-Backed Stablecoins
+·         Backed by physical assets like gold
+Example:
+·         PAX Gold (PAXG)
+
+5. Key Features of Stablecoins
+Price stability
+Fast transactions
+Low fees
+Blockchain transparency
+Global accessibility
+6. Uses of Stablecoins
+Digital payments
+Crypto trading
+Remittances
+Decentralized Finance (DeFi)
+Store of value
+
+7. Advantages of Stablecoins
+Less volatile than cryptocurrencies
+Easy conversion to fiat
+Useful for everyday transactions
+Enables DeFi applications
+
+8. Risks and Challenges
+Centralization risk
+Regulatory issues
+Lack of transparency (in some projects)
+Smart contract vulnerabilities
+
+
+
+9. Stablecoins vs Cryptocurrencies
+Feature
+Stablecoin
+Cryptocurrency
+Price Stability
+Stable
+Highly volatile
+Backing
+Yes
+No
+Use Case
+Payments, trading
+Investment, payments
+Risk
+Low to medium
+High
+
+ 
+Stablecoins bridge the gap between traditional finance and cryptocurrencies by offering stability, speed, and security on the blockchain.
+
