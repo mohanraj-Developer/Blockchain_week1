@@ -1,0 +1,43 @@
+How a Transaction Becomes a Block (Step-by-Step)
+
+1️. Transaction Creation
+A user initiates a transaction by specifying the sender, receiver, amount, and signs it digitally using a private key.
+
+2️. Transaction Broadcast
+The signed transaction is broadcast to the blockchain network and shared with nearby nodes.
+
+3. Transaction Verification
+Network nodes verify the transaction by checking:
+Digital signature validity
+Sufficient balance
+Transaction format and rules
+Only valid transactions are accepted.
+
+4️.Transaction Pool (Mempool)
+Verified transactions are stored temporarily in a pool of unconfirmed transactions called the mempool.
+
+5️. Block Formation
+Miners (PoW) or validators (PoS) select multiple transactions from the mempool and group them into a block.
+
+6️. Block Validation (Consensus)
+PoW: Miners compete to solve a cryptographic puzzle.
+PoS: A validator is selected based on stake to propose the block.
+
+7️. Block Verification by Network
+Other nodes verify the proposed block:
+Transactions are valid
+Block follows protocol rules
+Block hash is correct
+
+8️. Block Added to Blockchain
+Once verified, the block is linked to the previous block using a cryptographic hash and added to the blockchain.
+
+9️. Transaction Confirmation
+The transaction is now confirmed. Additional blocks added later increase its confirmation count and security.
+
+One-Line Summary (Exam Friendly)
+A transaction becomes a block after it is verified, grouped with other transactions, validated through consensus
+and permanently added to the blockchain.
+
+ 
+
