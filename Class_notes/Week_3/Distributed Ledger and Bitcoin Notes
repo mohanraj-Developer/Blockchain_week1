@@ -1,0 +1,123 @@
+                                       Distributed Ledger and Bitcoin Notes
+Distributed Ledger
+Databases that store a copy of all transactions that have happened. Every participant in the blockchain network has a copy of the ledger.
+Block Structure
+Header contains version information, nonce, previous block ID and timestamp.
+Merkle: A hash built from the block’s transaction list.
+List of records: Identification of hashes.
+Header Contents
+- Previous block hash
+- Timestamp
+- Nonce
+- Merkle root hash
+- Difficulty
+Bitcoin
+First application of blockchain technology introduced in 2008.
+Defined as a protocol, digital currency, and platform.
+Bitcoin Components
+- Bitcoin Network
+- Wallets
+- Blockchain
+- Miners
+- Transactions
+- Digital Keys
+- Hash Addresses
+Limited Supply of Bitcoin
+Bitcoin supply is limited to 21 million coins.
+Halving occurs every 210,000 blocks.
+Difficulty is adjusted every 2016 blocks.
+Ways to Get Bitcoin
+Buying online or offline.
+Steps:
+- Choose exchange
+- Create account
+- Connect bank
+- Buy Bitcoin
+Bitcoin Wallets
+Used to store private/public keys and manage cryptocurrency.
+Types:
+- Desktop/Software Wallet
+- Web Wallet
+- Mobile Wallet
+- Hardware Wallet
+Bitcoin Block
+A block consists of header, nonce, transactions, and transaction count.
+UTXO (Unspent Transaction Output)
+Determines wallet balance.
+Cannot spend partial outputs.
+Prevents double spending.
+Bitcoin Scripts
+Stack-based programming language used to validate transactions.
+Uses opcodes such as OP_DUP, OP_HASH160, OP_EQUALVERIFY, OP_CHECKSIG.
+Components of Bitcoin Script
+Bitcoin uses a stack-based scripting language to validate transactions.
+There are two main parts:
+1️⃣ ScriptSig (Input Script)
+Provided by the sender
+<Signature> <Public Key>
+👉 Proves ownership of Bitcoin
+👉 Unlocks the previous output
+
+2️⃣ ScriptPubKey (Output Script)
+Defined by the receiver
+OP_DUP
+OP_HASH160
+<PublicKeyHash>
+OP_EQUALVERIFY
+OP_CHECKSIG
+👉 Contains conditions to spend Bitcoin
+👉 Verifies authenticity of the transaction
+
+🔁 Complete Bitcoin Transaction Script
+When executed, both scripts are combined:
+<sig> <pubKey>
+OP_DUP OP_HASH160 <pubKeyHash> OP_EQUALVERIFY OP_CHECKSIG
+
+📊 Diagram: Stack Execution (FIFO / LIFO Concept)
+Step 1️⃣ Push ScriptSig values to Stack
+Stack
+│ <sig>     │
+│ <pubKey>  │
+└───────────┘
+📌 Values are pushed one by one
+
+Step 2️⃣ OP_DUP (Duplicate Public Key)
+Stack
+│ <pubKey>  │ ← duplicated
+│ <pubKey>  │
+│ <sig>     │
+└───────────┘
+
+Step 3️⃣ OP_HASH160 (Hash Public Key)
+Stack
+│ HASH160(pubKey) │
+│ <pubKey>        │
+│ <sig>           │
+└─────────────────┘
+
+Step 4️⃣ Push <PublicKeyHash> from ScriptPubKey
+Stack
+│ <pubKeyHash>    │
+│ HASH160(pubKey) │
+│ <sig>           │
+└─────────────────┘
+
+Step 5️⃣ OP_EQUALVERIFY
+✔️ Compares:
+HASH160(pubKey) == pubKeyHash ?
+✅ If equal → values removed from stack
+❌ If not equal → transaction fails
+Stack
+│ <sig> │
+└───────┘
+
+Step 6️⃣ OP_CHECKSIG (Final Verification)
+✔️ Checks:
+Signature ↔ Public Key
+If valid → TRUE pushed to stack
+Transaction is SUCCESSFUL
+Stack
+│ TRUE │ ✅
+└──────┘
+                                                                                                        
+                                                                                                               BY BAVALYA
