@@ -1,0 +1,22 @@
+Comparison: Proof of Work (PoW) vs Proof of Stake (PoS)
+
+Aspect                        Proof of Work (PoW)                      Proof of Stake (PoS)
+Basic Principle        Miners solve cryptographic puzzles        Validators stake coins to validate blocks
+Resource Used          Computational power & electricity              Staked cryptocurrency
+Block Creator          Miner with highest computing power        Validator selected based on stake
+Energy Consumption                Very high                                 Very low
+Hardware Requirement   Specialized hardware (ASICs, GPUs)                Normal servers
+Security Model        Cost of attack is high due to energy cost  Cost of attack is loss of staked coins
+51% Attack                Requires 51% of hash power                 Requires 51% of staked coins
+Decentralization          Tends toward mining pools                  Can favor large stakeholders
+Scalability               Lower throughput                           Higher throughput
+Transaction Speed                  Slower                                    Faster
+Environmental Impact      High carbon footprint                         Eco-friendly
+Example Blockchains                Bitcoin                        Ethereum (after Merge), Cardano, Solana
+
+
+One-Line Summary
+PoW secures the network using computational work and energy.
+PoS secures the network using economic stake and incentives.
+
+
