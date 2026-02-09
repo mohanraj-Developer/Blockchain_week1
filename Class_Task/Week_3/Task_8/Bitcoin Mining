@@ -1,0 +1,83 @@
+Bitcoin Mining: Definition, Process, and Global Distribution 
+
+1. What is Bitcoin Mining
+
+Bitcoin mining is the process of validating transactions and adding them to the blockchain using computational power. 
+It operates under the Proof-of-Work (PoW) mechanism and secures the network while issuing new bitcoins as rewards.
+
+Main purposes
+
+Verify and confirm transactions
+Secure the network
+Prevent double spending
+Add new blocks to the blockchain
+Release new bitcoins into circulation
+
+
+2. Bitcoin Mining Process:
+
+1. Users send transactions to the network.
+2. Miners verify transactions and group them into a block.
+3. Miners compete to solve a cryptographic hash puzzle.
+4. The first miner to solve it broadcasts the block.
+5. Network nodes verify the block.
+6. Block is added to the blockchain.
+7. Miner receives block reward + transaction fees.
+
+Average block time: ~10 minutes
+Current block reward (2026): 3.125 BTC
+Difficulty adjusts automatically based on total hash power
+Most mining today is done through mining pools using specialized ASIC hardware.
+
+
+
+3. Countries Involved in Bitcoin Mining (2026)
+
+Bitcoin mining is concentrated in a small number of countries due to electricity cost, infrastructure, and regulation.
+
+Country		            Estimated global hash rate share
+
+United States			        35%–40%
+China*			              15%–20%
+Kazakhstan			          10%–13%
+Russia				             8%–10%
+Canada			               5%–7%
+Paraguay		             	 3%–5%
+UAE				                 3%–4%
+Germany			               3%–4%
+Malaysia			             2%–3%
+Iran				               1%–2%
+Others				             10%–15%
+
+
+*Mining continues at reduced levels despite restrictions.
+Total countries with notable mining:
+Major mining hubs: ~10–15 countries
+Smaller mining activity: 40+ countries
+
+
+
+4. Regional Share of Mining
+
+Region			Share
+North America		40%–45%
+Asia				20%–25%
+Europe			15%–20%
+Middle East			5%–7%
+South America		5%–7%
+
+
+5. Key Factors for Mining Location
+
+Low electricity cost
+Access to renewable or surplus energy
+Cold climate
+Supportive regulation
+Data-center infrastructure
+
+
+6. Summary
+
+Bitcoin mining is the process of validating transactions and securing the blockchain through computational work. 
+Miners solve cryptographic problems to add blocks and earn rewards. Mining activity exists in over 40 countries, 
+but most global hash power is concentrated in about 10–15 countries, led by the United States, China, Kazakhstan, and Russia.
