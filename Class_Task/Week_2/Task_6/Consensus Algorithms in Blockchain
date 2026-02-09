@@ -1,0 +1,67 @@
+Consensus Algorithms in Blockchain
+________________________________________
+A consensus algorithm is a method used by blockchain networks to agree on the validity of transactions 
+and blocks without a central authority.
+________________________________________
+1. Proof of Work (PoW)
+•	Used in: Bitcoin
+•	Miners solve complex mathematical puzzles
+•	First miner to solve adds the block
+•	Very secure but consumes high energy
+Advantages: High security
+Disadvantages: High power consumption, slow
+________________________________________
+2. Proof of Stake (PoS)
+•	Used in: Ethereum (after Merge)
+•	Validators are selected based on amount of stake
+•	Less energy consumption than PoW
+Advantages: Energy efficient, faster
+Disadvantages: Wealth concentration risk
+________________________________________
+3. Delegated Proof of Stake (DPoS)
+•	Used in: EOS, TRON
+•	Token holders vote for delegates
+•	Delegates validate transactions
+Advantages: Fast and scalable
+Disadvantages: More centralized
+________________________________________
+4. Proof of Authority (PoA)
+•	Used in: Private & consortium blockchains
+•	Validators are trusted identities
+Advantages: High speed, low cost
+Disadvantages: Less decentralized
+________________________________________
+5. Proof of Elapsed Time (PoET)
+•	Used in: Hyperledger Sawtooth
+•	Validators wait for random time periods
+•	First to finish waiting creates block
+Advantages: Energy efficient
+Disadvantages: Requires trusted hardware
+________________________________________
+6. Proof of Capacity (PoC)
+•	Uses storage space instead of computing power
+•	More disk space = higher chance to mine
+Advantages: Energy efficient
+Disadvantages: Storage heavy
+________________________________________
+7. Proof of Burn (PoB)
+•	Coins are destroyed (burned)
+•	Burning proves long-term commitment
+Advantages: Prevents energy waste
+Disadvantages: Loss of assets
+________________________________________
+8. Proof of History (PoH)
+•	Used in: Solana
+•	Cryptographic timestamps prove order of events
+Advantages: Very fast
+Disadvantages: Complex design
+________________________________________
+9. Practical Byzantine Fault Tolerance (PBFT)
+•	Used in: Enterprise blockchains
+•	Nodes reach agreement even if some fail
+Advantages: High throughput
+Disadvantages: Limited scalability
+________________________________________
+Summary 
+Consensus algorithms ensure trust, security, and agreement in blockchain networks without a central authority.
+________________________________________
