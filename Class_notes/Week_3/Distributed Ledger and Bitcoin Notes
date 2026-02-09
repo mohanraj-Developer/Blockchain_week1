@@ -6,7 +6,7 @@ Header contains version information, nonce, previous block ID and timestamp.
 Merkle: A hash built from the block’s transaction list.
 List of records: Identification of hashes.
 Header Contents
-- Previous block hash
+- Previous block hash 
 - Timestamp
 - Nonce
 - Merkle root hash
