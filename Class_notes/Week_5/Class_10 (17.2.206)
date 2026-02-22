@@ -1,0 +1,125 @@
+Ethereum Blockchain
+M.Mohanraj
+17/2/2026
+________________________________________
+Remix IDE  
+•	Ethereum development environment used to build Ethereum smart contracts and decentralized applications.
+•	Common Ethereum development environments:
+1.	Truffle – Hardhat platform
+2.	Remix – Platform
+•	Truffle: Development environment, testing frame, asset, pipeline for EVM based blockchain.
+Hardhat is developer Environment. 
+•	Remix: Free, Open-source web & desktop application it promotes a quick development cycle and include a large number. 
+•	Used to write Solidity smart contracts.
+________________________________________
+Features of Remix IDE
+•	SMART CONTRACT server
+•	Custom Browser for Ethereum network
+•	SMART CONTRACT testing
+•	SMART CONTRACT debugging
+•	SMART CONTRACT deployment
+________________________________________
+Remix IDE – Installation & Setup
+•	Install Remix IDE:
+o	Command: npm install remix-ide -g
+o	URL: https://remix.ethereum.org/
+•	File extension: .sol
+________________________________________
+Ethereum Network
+•	Networks are different environments for developers for testing and deploying various dApps.
+o	Mainnet: Actual Ethereum network where transactions have real value.
+o	Testnet: Networks used for testing and development before deploying to mainnet.
+•	This network allows developers to test and deploy applications without using real money.
+•	After testing and debugging, smart contracts can be deployed to the mainnet.
+________________________________________
+Test Network:
+	Provide few test networks for developer to test protocol smart contract features and application before deploying then to production network. 
+Faucet
+•	Used in test networks to provide free test crypto for development and testing.
+Public Testnets:
+1.	Garli – Most commonly used testnet
+2.	Kovan – Running on Ethereum
+3.	Rinkely – Running on Geth client
+4.	Ropsten – Test network for Ethereum
+________________________________________
+Ethereum Wallets
+•	Help in connecting with Ethereum Blockchain networks.
+•	Used for storing and performing monetary transaction tokens from one account to another.
+Types
+•	Web
+•	Desktop
+•	Mobile
+•	Hardware
+________________________________________
+
+MetaMask
+•	Web wallet that allows users to send and receive Ether and other Ethereum-based cryptocurrencies.
+•	Acts as a gateway to interact with dApps.
+•	Keeps private keys secure and uses randomly generated seed phrases.
+•	Supports multiple networks and browsers.
+•	Can act as mainnet, testnet, or local network connection.
+________________________________________Development & Deployment Flow
+1.	Create a new test network for development.
+2.	Write smart contract code in Solidity.
+3.	Compile the contract.
+4.	Deploy the code to the network.
+5.	Interact with deployed smart contracts using front-end or tools.
+________________________________________
+Deployment Architecture
+•	Deploy using Remix.
+•	Use application binary interface (ABI) for interaction.
+•	Bridge to connect to network (Ethereum).
+•	HTML front end ↔ Ethers.js/Web3.js ↔ Backend.
+________________________________________
+Smart Contract
+Smart Contract Life Cycle
+1.	Development
+o	Use Solidity as the first phase.
+2.	ABI & Bytecode Conversion
+o	Smart contract converted into bytecode and ABI.
+3.	Deployment
+o	Bytecode and ABI deployed on blockchain network.
+4.	Contract Interaction
+o	Once deployed, other users can interact using the contract address.
+________________________________________
+
+Solidity
+•	High-level object-oriented programming language.
+•	Used for creating smart contracts.
+•	Specifically designed for Ethereum Virtual Machine (EVM).
+•	Version example: Solidity ^0.8.0
+________________________________________
+Basic Contract Structure
+pragma solidity ^0.8.0;
+
+contract TestContract {
+    string name;
+
+    function setName(string memory _name) public {
+        name = _name;
+    }
+
+    function getName() public view returns (string memory) {
+        return name;
+    }
+}
+________________________________________
+Key Concepts
+•	Contract: Keyword that defines a smart contract.
+•	Memory: Temporary storage.
+•	Storage: Permanent storage.
+•	public: Visibility keyword.
+Functions
+•	setName()
+o	Accepts a string parameter.
+o	Stores it in variable name.
+•	getName()
+o	Returns the stored string value.
+________________________________________
+Summary
+•	Ethereum is a decentralized blockchain platform for building smart contracts and dApps.
+•	Remix IDE is a key tool for development and testing.
+•	MetaMask is used for wallet interaction.
+•	Testnets help in safe testing before mainnet deployment.
+•	Smart contracts follow development → compile → deploy → interact lifecycle.
+
