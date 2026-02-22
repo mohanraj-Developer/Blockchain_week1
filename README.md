@@ -1,5 +1,7 @@
-*🚀 Blockchain & Web3 Learning Repository*
+**🚀 Blockchain & Web3 Learning Repository**
+
 📖 About
+
 This repository covers fundamental and advanced concepts of Blockchain Technology and Web3 Ecosystem. It includes theoretical understanding and practical knowledge about decentralized systems and digital assets.
 
 📚 Topics Covered
